@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <name>lock1</name>
+    <middleware>
+        <timeWidget>com.tpad.lockwidget.view.time.NormalTimeWidgetMiddleware</timeWidget>
+        <Widget type="normal">com.tpad.lockwidget.view.AlphaAnimationTextViewWidgetMiddleware</Widget>
+        <unLockWidget>com.tpad.lockwidget.view.unLock.NormalUnLockWidgetMiddleware</unLockWidget>
+    </middleware>
+</config>
